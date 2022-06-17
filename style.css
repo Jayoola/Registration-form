@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    width: 1440px;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans - serif;
+
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    gap: 30px;
+    width: 60%;
+    height: 500px;
+    margin: 75px 200px;
+    font-size: 16px;
+    padding: 70px;
+}
+
+h2 {
+    color: hsl(246, 25%, 77%);
+    font-weight: 700;
+
+}
+
+p {
+    color: hsl(246, 25%, 77%);
+    font-size: 12px;
+}
+.trial {
+    background-color: hsl(248, 32%, 49%);
+
+    color: hsl(246, 25%, 77%);
+    border-radius: 3px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+.text {
+    width: 50 vh;
+}
+.form {
+    width: 50vh;
+    background-color: hsl(246, 25%, 77%);
+    text-align: center;
+    padding: 25px 30px;
+    border-radius: 3px;
+    font-size: 8px;
+    font-weight: 500;
+
+
+}
+
+button[type = submit] {
+    background-color: hsl(154, 59%, 51%);
+    color: hsl(246, 25%, 77%);
+    border: none;
+    border-radius: 3px;
+    padding: 8px 25px;
+    width: 100%;
+    font-weight: 600;
+
+
+}
+
+button:hover {
+    background-color: hsla(154, 95%, 37%, 0.932);
+}
+
+input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 0.2px;
+    border-radius: 3px;
+
+};
+
+
+/* input:hover {
+    border: 0.5px solid hsl(246, 25%, 77%);
+} */
+
+
+footer {
+    font-weight: 400;
+}
+.ftr {
+    color: hsl(0, 100%, 74%);
+
+    text-decoration: none;
+}
